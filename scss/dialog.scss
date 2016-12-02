@@ -1,0 +1,45 @@
+*{margin:0;padding:0;}
+html,body{
+	width:100%;
+	height:100%;
+}
+.mark{
+	width:100%;
+	height:100%;
+	background:rgba(0,0,0,0.5);
+	position:absolute;
+	left:0;
+	top:0;
+	z-index: 9999;
+}
+.dialog{
+	width:300px;
+	height:86px;
+	border:1px solid #000;
+	border-radius: 5px;
+	overflow:hidden;
+	z-index: 10000;
+	color:#fff;
+	text-align: center;
+	position:absolute;
+	left:0;
+	top:0;
+	right:0;
+	bottom:0;
+	margin:auto;
+}
+.dialog p{
+	height:48px;
+	background:#999;
+	line-height: 48px;
+}
+.dialog section{
+	height:38px;
+	line-height: 38px;
+	background:#666;
+}
+.dialog section span{
+	display:inline-block;
+	width:30%;
+	margin-right: 10px;
+}

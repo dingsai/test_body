@@ -1,0 +1,133 @@
+html{
+  font-size:16px;
+}
+html,body{
+  width:100%;
+  height:100%;
+}
+.Medical{
+  width:100%;
+  height:100%;
+  display:-webkit-box;
+  -webkit-box-orient: vertical;
+  .Medical_section{
+    width:100%;
+    height:100%;
+    -webkit-box-flex:1;
+    background:url("../img/bg.png")no-repeat;
+    background-size:cover;
+    .Medical_wrap{
+      width:95%;
+      height:7.2rem;
+      margin-left:5%;
+      background:url("../img/sex_bg.png")no-repeat;
+      background-size:cover;
+      position:relative;
+      .cai{
+        display:block;
+        width:1.82rem;
+        position:absolute;
+        left:-.6rem;
+        bottom:-.5rem;
+        img{
+          width:100%;
+          height:100%;
+        }
+      }
+      //有无病史
+      .Medical_history{
+        width:90%;
+        height:100%;
+        position:relative;
+        h2{
+          color:#B00600;
+          width:100%;
+          text-align:center;
+          line-height:1.74rem;
+          font-size:.35rem;
+        }
+        .choice_medical{
+          width:80%;
+          margin:auto;
+          ul{
+            width:100%;
+            height:.4rem;
+            display:-webkit-box;
+            li{
+              width:50%;
+              position:relative;
+              span{
+                display:inline-block;
+                width:.32rem;
+                height:.32rem;
+                background:url("../img/ra.gif")no-repeat;
+                background-size:cover;
+                float:left;
+                margin-left:30%;
+              }
+              em{
+                font-size:16px;
+                position:absolute;
+                left:60%;
+                top:0;
+              }
+              span.active{
+                background:url("../img/la.gif")no-repeat;
+                background-size:cover;
+              }
+            }
+          }
+          .seeks{
+            width:100%;
+            margin-top:.32rem;
+            border:1px solid #9D864E;
+            position:relative;
+            .top-arrow{
+              width:.26rem;
+              height:.26rem;
+              position: absolute;
+              right:30%;
+              top:-.15rem;
+              border:1px solid #9D864E;
+              transform: rotate(45deg);
+              border-right:none;
+              border-bottom:none;
+            }
+            ol{
+              width:100%;
+              display:-webkit-flex;
+              -webkit-flex-wrap:wrap;
+              li{
+                padding:.1rem;
+                height:.5rem;
+                line-height:.3rem;
+                text-align:center;
+                border:1px solid #9D864E;
+                border-radius:5px;
+                margin:.1rem .18rem;
+                font-size:.24rem;
+              }
+              li.li_active{
+                background:#F6514B;
+                color:#fff;
+              }
+            }
+          }
+        }
+        .go-allergy{
+          display:block;
+          width:2.35rem;
+          height:1.05rem;
+          position:absolute;
+          left:30%;
+          bottom:.7rem;
+          img{
+            width:100%;
+            height:100%;
+          }
+        }
+      }
+
+    }
+  }
+}
