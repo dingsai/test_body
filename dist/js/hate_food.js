@@ -95,7 +95,7 @@
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
-	/* WEBPACK VAR INJECTION */(function($) {__webpack_require__.e/* require */(5, function() {[__webpack_require__(13), __webpack_require__(10), __webpack_require__(17)];});
+	/* WEBPACK VAR INJECTION */(function($) {__webpack_require__.e/* require */(5, function() {[__webpack_require__(13), __webpack_require__(10)];});
 
 	//渲染数据
 	var data3 = "";
@@ -120,17 +120,14 @@
 	    }
 	});
 	$(".go-test").on("click", function () {
-	    //调用插件
-	    //$.a();
-	    $(".product").on("click", "button", function () {
-	        var li = $(this).parent();
-	        $.dialog({
-	            btn: ["确认", "取消"],
-	            callback: function () {
-	                //点击确定执行的动作
-	                li.remove();
-	            }
-	        });
+	    $(".mask_layer").show();
+	    $(".tan").show();
+	    $(".quxiao").on("click", function () {
+	        $(".mask_layer").hide();
+	        $(".tan").hide();
+	    });
+	    $(".tan").on("click", "a", function () {
+	        window.location.href = "test.html";
 	    });
 	});
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))

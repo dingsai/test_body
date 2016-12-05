@@ -364,7 +364,7 @@ webpackJsonp([5],[
 
 
 	// module
-	exports.push([module.id, "* {\n  margin: 0;\n  padding: 0; }\n\nhtml, body {\n  width: 100%;\n  height: 100%; }\n\n.mark {\n  width: 100%;\n  height: 100%;\n  background: rgba(0, 0, 0, 0.5);\n  position: absolute;\n  left: 0;\n  top: 0;\n  z-index: 9999; }\n\n.dialog {\n  width: 300px;\n  height: 86px;\n  border: 1px solid #000;\n  border-radius: 5px;\n  overflow: hidden;\n  z-index: 10000;\n  color: #fff;\n  text-align: center;\n  position: absolute;\n  left: 0;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  margin: auto; }\n\n.dialog p {\n  height: 48px;\n  background: #999;\n  line-height: 48px; }\n\n.dialog section {\n  height: 38px;\n  line-height: 38px;\n  background: #666; }\n\n.dialog section span {\n  display: inline-block;\n  width: 30%;\n  margin-right: 10px; }\n\nhtml {\n  font-size: 16px; }\n\nhtml, body {\n  width: 100%;\n  height: 100%; }\n\n.hate {\n  width: 100%;\n  height: 100%;\n  display: -webkit-box;\n  -webkit-box-orient: vertical; }\n  .hate .hate_section {\n    width: 100%;\n    height: 100%;\n    -webkit-box-flex: 1;\n    background: url(" + __webpack_require__(5) + ") no-repeat;\n    background-size: cover; }\n    .hate .hate_section .hate_wrap {\n      width: 95%;\n      height: 7.2rem;\n      margin-left: 5%;\n      background: url(" + __webpack_require__(6) + ") no-repeat;\n      background-size: cover;\n      position: relative; }\n      .hate .hate_section .hate_wrap .cai {\n        display: block;\n        width: 1.82rem;\n        position: absolute;\n        left: -.6rem;\n        bottom: -.5rem; }\n        .hate .hate_section .hate_wrap .cai img {\n          width: 100%;\n          height: 100%; }\n      .hate .hate_section .hate_wrap .hate_food {\n        width: 90%;\n        height: 100%; }\n        .hate .hate_section .hate_wrap .hate_food h2 {\n          color: #B00600;\n          width: 100%;\n          text-align: center;\n          line-height: 1.74rem;\n          font-size: .35rem; }\n        .hate .hate_section .hate_wrap .hate_food .hate_content ul {\n          display: -webkit-flex;\n          -webkit-flex-wrap: wrap; }\n          .hate .hate_section .hate_wrap .hate_food .hate_content ul li {\n            width: 50%;\n            text-align: center;\n            line-height: .64rem;\n            font-size: 16px; }\n            .hate .hate_section .hate_wrap .hate_food .hate_content ul li span {\n              width: .36rem;\n              height: .36rem;\n              display: inline-block;\n              background: url(" + __webpack_require__(15) + ") no-repeat;\n              background-size: cover; }\n            .hate .hate_section .hate_wrap .hate_food .hate_content ul li span.active {\n              width: .36rem;\n              height: .36rem;\n              display: inline-block;\n              background: url(" + __webpack_require__(16) + ") no-repeat;\n              background-size: cover; }\n            .hate .hate_section .hate_wrap .hate_food .hate_content ul li i {\n              display: inline-block;\n              font-size: 16px;\n              margin-left: .1rem; }\n        .hate .hate_section .hate_wrap .hate_food .go-test {\n          display: block;\n          width: 2.35rem;\n          height: 1.05rem;\n          position: absolute;\n          left: 50%;\n          bottom: .7rem;\n          margin-left: -1.17rem; }\n          .hate .hate_section .hate_wrap .hate_food .go-test img {\n            width: 100%;\n            height: 100%; }\n", ""]);
+	exports.push([module.id, "* {\n  margin: 0;\n  padding: 0; }\n\nhtml, body {\n  width: 100%;\n  height: 100%; }\n\n.mark {\n  width: 100%;\n  height: 100%;\n  background: rgba(0, 0, 0, 0.5);\n  position: absolute;\n  left: 0;\n  top: 0;\n  z-index: 9999; }\n\n.dialog {\n  width: 300px;\n  height: 86px;\n  border: 1px solid #000;\n  border-radius: 5px;\n  overflow: hidden;\n  z-index: 10000;\n  color: #fff;\n  text-align: center;\n  position: absolute;\n  left: 0;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  margin: auto; }\n\n.dialog p {\n  height: 48px;\n  background: #999;\n  line-height: 48px; }\n\n.dialog section {\n  height: 38px;\n  line-height: 38px;\n  background: #666; }\n\n.dialog section span {\n  display: inline-block;\n  width: 30%;\n  margin-right: 10px; }\n\nhtml {\n  font-size: 16px; }\n\nhtml, body {\n  width: 100%;\n  height: 100%; }\n\n.hate {\n  width: 100%;\n  height: 100%;\n  display: -webkit-box;\n  -webkit-box-orient: vertical;\n  position: relative; }\n  .hate .hate_section {\n    width: 100%;\n    height: 100%;\n    position: relative;\n    -webkit-box-flex: 1;\n    background: url(" + __webpack_require__(5) + ") no-repeat;\n    background-size: cover; }\n    .hate .hate_section .hate_wrap {\n      width: 95%;\n      height: 7.2rem;\n      margin-left: 5%;\n      margin-top: .82rem;\n      background: url(" + __webpack_require__(6) + ") no-repeat;\n      background-size: cover;\n      position: relative; }\n      .hate .hate_section .hate_wrap .cai {\n        display: block;\n        width: 1.82rem;\n        position: absolute;\n        left: -.6rem;\n        bottom: -.5rem; }\n        .hate .hate_section .hate_wrap .cai img {\n          width: 100%;\n          height: 100%; }\n      .hate .hate_section .hate_wrap .hate_food {\n        width: 90%;\n        height: 100%; }\n        .hate .hate_section .hate_wrap .hate_food h2 {\n          color: #B00600;\n          width: 100%;\n          text-align: center;\n          line-height: 1.74rem;\n          font-size: .35rem; }\n        .hate .hate_section .hate_wrap .hate_food .hate_content ul {\n          display: -webkit-flex;\n          -webkit-flex-wrap: wrap; }\n          .hate .hate_section .hate_wrap .hate_food .hate_content ul li {\n            width: 50%;\n            text-align: center;\n            line-height: .64rem;\n            font-size: 16px; }\n            .hate .hate_section .hate_wrap .hate_food .hate_content ul li span {\n              width: .36rem;\n              height: .36rem;\n              display: inline-block;\n              background: url(" + __webpack_require__(15) + ") no-repeat;\n              background-size: cover; }\n            .hate .hate_section .hate_wrap .hate_food .hate_content ul li span.active {\n              width: .36rem;\n              height: .36rem;\n              display: inline-block;\n              background: url(" + __webpack_require__(16) + ") no-repeat;\n              background-size: cover; }\n            .hate .hate_section .hate_wrap .hate_food .hate_content ul li i {\n              display: inline-block;\n              font-size: 16px;\n              margin-left: .1rem; }\n        .hate .hate_section .hate_wrap .hate_food .go-test {\n          display: block;\n          width: 2.35rem;\n          height: 1.05rem;\n          position: absolute;\n          left: 50%;\n          bottom: .7rem;\n          margin-left: -1.17rem; }\n          .hate .hate_section .hate_wrap .hate_food .go-test img {\n            width: 100%;\n            height: 100%; }\n  .hate .mask_layer {\n    width: 100%;\n    height: 100%;\n    position: absolute;\n    left: 0;\n    top: 0;\n    background: rgba(0, 0, 0, 0.7);\n    z-index: 10009;\n    display: none; }\n  .hate .tan {\n    width: 85%;\n    height: 6.25rem;\n    background: url(" + __webpack_require__(17) + ") no-repeat;\n    background-size: cover;\n    margin: 1rem auto;\n    z-index: 10010;\n    position: relative;\n    display: none; }\n    .hate .tan .quxiao {\n      display: block;\n      width: .54rem;\n      height: .62rem;\n      position: absolute;\n      right: 5%;\n      top: 0; }\n      .hate .tan .quxiao img {\n        width: 100%;\n        height: 100%; }\n    .hate .tan a {\n      display: block;\n      width: 2.42rem;\n      height: 1rem;\n      position: absolute;\n      left: 50%;\n      bottom: .14rem;\n      margin-left: -1.21rem; }\n", ""]);
 
 	// exports
 
@@ -385,52 +385,7 @@ webpackJsonp([5],[
 /* 17 */
 /***/ function(module, exports, __webpack_require__) {
 
-	/* WEBPACK VAR INJECTION */(function(jQuery) {;(function ($) {
-		var Dialog = function (opt) {
-			//创建默认参数
-			var _default = {
-				title: "",
-				txt: "确认删除吗？",
-				btn: ["确认"],
-				callback: null
-			};
-			//扩展参数
-			var settings = $.extend({}, _default, opt);
-			var btn = "";
-			//console.log(settings)
-			$.each(settings.btn, function (i, e) {
-				btn += "<span>" + e + "</span>";
-			});
-
-			//功能语句：动态生成结构+css样式+动态脚本
-			var htmlNode = $("<div class='mark'></div><div class='dialog'><p>" + settings.txt + "</p><section>" + btn + "</section></div>");
-			$("body").prepend(htmlNode);
-
-			//点击确认  取消按钮都关闭
-			$(".dialog").on("click", "span", function () {
-				var btntxt = $(this).text();
-				if (btntxt == "确认") {
-					//if(settings.callback) settings.callback();
-					settings.callback && settings.callback();
-				}
-				close();
-			});
-			//关闭弹出框
-			function close() {
-				$(".mark").remove();
-				$(".dialog").remove();
-			}
-		};
-
-		$.dialog = function (opt) {
-			new Dialog(opt);
-		};
-
-		/*$.extend({
-	 	//a:function(){alert("a")}
-	 		})*/
-	})(jQuery);
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
+	module.exports = __webpack_require__.p + "img/question.gif";
 
 /***/ }
 ]);

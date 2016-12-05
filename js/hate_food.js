@@ -1,4 +1,4 @@
-require(["../scss/hate.scss","../main.js","./dialog.js"]);
+require(["../scss/hate.scss","../main.js"]);
 
        //渲染数据
         var data3="";
@@ -25,18 +25,15 @@ require(["../scss/hate.scss","../main.js","./dialog.js"]);
             }
         });
 $(".go-test").on("click",function(){
-    //调用插件
-    //$.a();
-    $(".product").on("click","button",function(){
-        var li=$(this).parent();
-        $.dialog({
-            btn:["确认","取消"],
-            callback:function(){//点击确定执行的动作
-                li.remove();
-            }
-        });
-    });
-
+    $(".mask_layer").show();
+    $(".tan").show();
+    $(".quxiao").on("click",function(){
+        $(".mask_layer").hide();
+        $(".tan").hide();
+    })
+    $(".tan").on("click","a",function(){
+        window.location.href="test.html";
+    })
 });
 
 
